@@ -16,12 +16,17 @@ def home():
                 'title': 'Portfolio Website',
                 'desc': 'Personal site built with Flask and HTML/CSS',
                 'tech': 'Python, Flask, HTML/CSS'
-
             },
-
+            {
+                'title': 'Weather App',
+                'desc': 'Full stack weather app with Flask, live API data and secure key handling.',
+                'tech': 'Python, Flask, JS, HTML/CSS',
+                'live': 'https://weather-app-xxxx.onrender.com',
+                'github': 'https://github.com/onionloop/weather-app'
+            },
             {
                 'title': 'Coming Soon',
-                'desc': 'Next project loading soon with more Flask and frontend...',
+                'desc': 'Next project loading soon...',
                 'tech': 'Python, Flask, HTML/CSS'
             }
         ]

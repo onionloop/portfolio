@@ -45,6 +45,15 @@
         <div class="card">
             <h3>{{ project.title }}</h3>
             <p>{{ project.desc }}</p>
+
+            <div class="card-links">
+                {% if project.live %}
+                <a href="{{ project.live }}" target="_blank">🔗 Live</a>
+                {% endif %}
+                {% if projec.github %}
+                <a href="{{ project.github }}" target="_blank">💻 Code</a>
+                {% endif %}
+            </div>
             <span class ="tech">{{ project.tech }}</span>
         </div>
         {% endfor %}

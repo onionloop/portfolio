@@ -126,6 +126,28 @@ section{
     margin-bottom: 1rem;
 }
 
+.card-links{
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.card-links a{
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    transition: all 0.2s;
+}
+
+.card-links a:hover{
+    background: var(--accent);
+    color: white;
+}
+
+
 .tech{
     font-size: 0.75rem;
     color: var(--accent);
