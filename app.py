@@ -21,7 +21,7 @@ def home():
                 'title': 'Weather App',
                 'desc': 'Full stack weather app with Flask, live API data and secure key handling.',
                 'tech': 'Python, Flask, JS, HTML/CSS',
-                'live': 'https://weather-app-xxxx.onrender.com',
+                'live': 'https://weather-app-ghph.onrender.com/',
                 'github': 'https://github.com/onionloop/weather-app'
             },
             {
