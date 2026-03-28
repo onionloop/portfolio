@@ -29,7 +29,7 @@ def home():
                 'title': 'TinyLink - URL Shortener',
                 'desc': 'Full stack URL shortener built with Flask, secure ID generation and click analytics.',
                 'tech': 'Python, Flask, SQLite, JS, HTML/CSS',
-                'live': 'https://url-shortner-p9vd.onrender.com/',
+                'live': 'https://url-shortener-p9vd.onrender.com/',
                 'github': 'https://github.com/onionloop/url-shortener'
             },
             {
