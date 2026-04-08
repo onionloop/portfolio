@@ -13,16 +13,21 @@ def home():
         'skills': ['Python', 'C++', 'HTML/CSS', 'Flask', 'Linux'],
         'projects': [
             {
-                'title': 'Portfolio Website',
-                'desc': 'Personal site built with Flask and HTML/CSS',
-                'tech': 'Python, Flask, HTML/CSS'
-            },
-            {
                 'title': 'Weather App',
                 'desc': 'Full stack weather app with Flask, live API data and secure key handling.',
                 'tech': 'Python, Flask, JS, HTML/CSS',
                 'live': 'https://weather-app-ghph.onrender.com/',
-                'github': 'https://github.com/onionloop/weather-app'
+                'github': 'https://github.com/onionloop/weather-app',
+                'image': 'images/weather_preview.png'
+            },
+
+            {
+                'title': 'SillyPaste',
+                'desc': 'Pastebin-style tool for sharing code and text with syntax highlighting, expiry, burn-after-read, and password protection.',
+                'tech': 'Python, Flask, SQLite, JS, HTML/CSS',
+                'live': 'https://silly-paste.onrender.com/',
+                'github': 'https://github.com/onionloop/silly-paste',
+                'image': 'images/preview.png'
             },
 
             {
@@ -30,7 +35,8 @@ def home():
                 'desc': 'Full stack URL shortener built with Flask, secure ID generation and click analytics.',
                 'tech': 'Python, Flask, SQLite, JS, HTML/CSS',
                 'live': 'https://url-shortener-p9vd.onrender.com/',
-                'github': 'https://github.com/onionloop/url-shortener'
+                'github': 'https://github.com/onionloop/url-shortener',
+                'image': 'images/tiny-link_preview.png'
             },
             {
                 'title': 'Coming Soon',
