@@ -289,6 +289,7 @@ nav ul a:hover {
   padding: 5rem 4rem;
   border-top: 1px solid var(--border);
   position: relative;
+  animation: fadeUp 0.6s ease forwards 0.3s;
 }
 
 .section-label {
@@ -301,7 +302,7 @@ nav ul a:hover {
 }
 
 .about-text {
-  max-width: 760px;
+  max-width: 800px;
   font-family: 'Inter', sans-serif;
   font-size: 1.125rem;
   color: rgb(180, 185, 195);
